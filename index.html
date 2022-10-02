@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="align">
+
+    <div class="grid align__item">
+
+        <div class="register">
+            <h2>Assignment</h2>
+
+            <div class="form">
+
+                <!-- Input Field for : Number of People -->
+                <div class="form__field">
+                    <input id="people" onchange="updatePeopleValue()" type="text" placeholder="Number of People">
+                </div>
+
+                <!-- Input Field for : Number of Bus -->
+                <div class="form__field">
+                    <input id="bus" type="text" onchange="updateBusValue()" placeholder="Number of Bus">
+                </div>
+
+                <!-- Button : to reflect Output -->
+                <button type="button" id="btn" onclick="do_allocation()">Submit</button>
+
+                <!-- Output Field for : Output -->
+                <div class="form__field">
+                    <output id="output" placeholder="Output">Output</output>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <script src="assignment.js"></script>
+</body>
+
+</html>
